@@ -1,0 +1,9 @@
+[user]
+	name = Jack
+	email = Jack.Zanardo@protonmail.com
+
+[core]
+	editor = emacs
+
+[push]
+	autoSetupRemote = true
