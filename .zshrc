@@ -15,7 +15,7 @@ compinit
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh 
 
-export PATH=$PATH:$HOME/.local/bin:$HOME/bin
+export PATH=$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin
 
 alias emacs='emacsclient -c'
 
