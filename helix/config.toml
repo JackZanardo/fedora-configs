@@ -2,5 +2,4 @@ theme = "base16_transparent"
 
 [editor]
 line-number = "relative"
-
-
+auto-format = true
