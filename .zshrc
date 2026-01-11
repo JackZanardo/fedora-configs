@@ -18,5 +18,11 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH=$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin
 
 alias emacs='emacsclient -c'
+alias matugen-git='matugen'
 
-eval "$(oh-my-posh init zsh --config atomic)"
+# eval "$(oh-my-posh init zsh --config atomic)"
+
+export EDITOR="hx"
+export VISUAL="hx"
+
+eval "$(starship init zsh)"
