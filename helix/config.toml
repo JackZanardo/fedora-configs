@@ -1,5 +1,31 @@
-theme = "base16_transparent"
+theme = "gruvbox"
 
 [editor]
 line-number = "relative"
 auto-format = true
+end-of-line-diagnostics = "hint"
+
+[editor.file-picker]
+hidden = false
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.whitespace.render]
+space = "all"
+nbsp = "all"
+nnbsp = "all"
+tab = "all"
+newline = "none"
+tabpad = "all"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo dnf install zsh zsh-autosuggestions zsh-syntax-highlighting helix nodejs-bash-language-server

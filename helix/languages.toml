@@ -1,0 +1,4 @@
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 2, unit = "  " }
