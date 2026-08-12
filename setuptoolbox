@@ -1,3 +1,9 @@
 #!/bin/bash
 
-sudo dnf install zsh zsh-autosuggestions zsh-syntax-highlighting helix nodejs-bash-language-server
+sudo dnf install zsh \
+  zsh-autosuggestions \
+  zsh-syntax-highlighting \
+  helix \
+  nodejs \
+  bash-language-server \
+  neovim
