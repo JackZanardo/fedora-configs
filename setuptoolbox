@@ -6,4 +6,8 @@ sudo dnf install zsh \
   helix \
   nodejs \
   bash-language-server \
-  neovim
+  neovim \
+  fzf \
+  ripgrep \
+  fd \
+  lazygit
