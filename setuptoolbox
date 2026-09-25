@@ -3,11 +3,10 @@
 sudo dnf install zsh \
   zsh-autosuggestions \
   zsh-syntax-highlighting \
-  helix \
-  nodejs \
-  bash-language-server \
   neovim \
   fzf \
   ripgrep \
-  fd \
-  lazygit
+  fd
+
+sudo dnf copr enable dejan/lazygit
+sudo dnf install lazygit
